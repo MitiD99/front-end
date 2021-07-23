@@ -1,0 +1,39 @@
+@font-face {
+    font-family: DejaVuSans;
+    src: url(DejaVuSans.ttf);
+}
+.main-heading {
+    text-align: center;
+    font-family: DejaVuSans;
+    letter-spacing: 6px;
+}
+.sub-heading {
+    text-align: center;
+    font-family: DejaVuSans;
+}
+body {
+background-image: url(./img/bg.jpg);
+background-size: cover;
+}
+.power {
+    text-decoration: underline;
+    letter-spacing: 5px;
+}
+.not-power {
+    text-decoration: underline;
+    letter-spacing: 5px;
+}
+.wrong-year {
+text-decoration: line-through;
+}
+.important-fact {
+    text-decoration: underline;
+}
+.city-name {
+font-size: 30px;
+font-weight: bold;
+}
+.serial-number {
+    font-size: 22px;
+}
+

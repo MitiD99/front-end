@@ -1,0 +1,20 @@
+table{
+    border-collapse: collapse;
+    border: 1px solid #000;
+    width: 700px;
+    height: 200px;
+}
+td, th{
+    border: 1px solid #000;
+    text-align: center;
+}
+td, th, .topic {
+    font-size: 17pt;
+}
+.topic{
+    font-style: italic;
+
+}
+.nomination{
+    background-color: yellow;
+}

@@ -1,0 +1,22 @@
+
+        p {
+            color: gray;
+        }
+        .colortext{
+            color: red;
+        }
+        ol {
+            color: royalblue;
+        }
+        ul {
+            color: black;
+        }
+         @font-face {
+            font-family: Roboto-Regular;
+            src: url(Roboto-Regular.ttf);
+        }
+         h1{
+             font-family: Roboto-Regular;
+         }
+
+    

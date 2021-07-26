@@ -1,14 +1,15 @@
 .bloom-1 {
-    font-size: 20px;
     color: red;
 }
 .bloom-2 {
-    font-size: 20px;
     color: green;
 }
 .bloom-3 {
     font-size: 20px;
     color: blue;
+}
+.bloom-1, .bloom-2, .bloom-3 {
+    font-size: 20px;
 }
 strong {
     font-weight: bold;

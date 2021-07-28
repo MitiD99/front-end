@@ -34,6 +34,6 @@ font-size: 30px;
 font-weight: bold;
 }
 .serial-number {
-    font-size: 22px;
+text-transform: uppercase;
 }
 

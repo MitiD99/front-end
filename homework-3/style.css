@@ -12,8 +12,8 @@
     font-family: DejaVuSans;
 }
 body {
-background-image: url(./img/bg.jpg);
-background-size: cover;
+    background-image: url(./img/bg.jpg);
+    background-size: cover;
 }
 .power {
     text-decoration: underline;
@@ -24,16 +24,16 @@ background-size: cover;
     letter-spacing: 5px;
 }
 .wrong-year {
-text-decoration: line-through;
+    text-decoration: line-through;
 }
 .important-fact {
     text-decoration: underline;
 }
 .city-name {
-font-size: 30px;
-font-weight: bold;
+    font-size: 30px;
+    font-weight: bold;
 }
 .serial-number {
-text-transform: uppercase;
+    text-transform: uppercase;
 }
 

@@ -1,0 +1,85 @@
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(./Roboto-Regular.ttf);
+}
+
+.page-form__label-text, .page-form__radio, .page-form__label-text-position, .page-form__label-text-agreement, .page-form__headling, .button {
+  font-family: "Roboto-Regular";
+}
+
+.page-form {
+  max-width: 600px;
+  margin: 0 auto;
+  border: 2px solid gray;
+  border-radius: 10px;
+  overflow: hidden;
+}
+  
+.page-form__headling {
+  color: white;
+  padding: 10px 0;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+  
+.page-form__headling, .page-form__label, .page-form__label-text, .page-form__radio, .page-form__label-text-position, .page-form__position, .page-form__input, .page-form__option, .page-form__button {
+  display: block;
+}
+
+.page-form__label-text, .page-form__radio, .page-form__label-text-position {
+  padding-top: 10px;
+}
+
+.page-form__label, .page-form__radio, .page-form__label-text-position, .page-form__button { 
+  padding-left: 40px;
+}
+
+.page-form__input, .page-form__option, .button {
+  width: 90%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin-top: 10px;
+  border: 1px solid gray;
+  border-radius: 0.3em;
+  padding-left: 10px;
+}
+
+.page-form__input:focus {
+  outline: none;
+  border: 1px solid rgb(137, 202, 228);
+  box-shadow: 0 0 2px 2px rgb(137, 202, 228);
+}
+
+.page-form__button {
+  padding-bottom: 30px;
+}
+
+.button, .page-form__headling {
+  background-color: rgb(44, 151, 98);
+  text-align: center;
+  color: white;
+}
+
+.button {
+  font-size: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.page-form__radio:focus {
+border-color: navy;
+outline: none;
+}
+
+.page-form__radio:not(:disabled):active+label::before {
+  background-color: #b3d7ff;
+  border-color: #b3d7ff;
+}
+
+.page-form__option {
+  color: gray;
+}
+
+option {
+  color: black;
+}

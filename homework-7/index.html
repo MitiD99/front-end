@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form class="page-form">
+    
+    <h2 class="page-form__headling">Create your account</h2>
+
+    <label for="first-name" class="page-form__label">
+      <span class="page-form__label-text">First Name</span>
+      <input name="first-name" placeholder="enter name" type="text" class="page-form__input">
+    </label>
+
+    <label for="second-name" class="page-form__label">
+      <span class="page-form__label-text">Second Name</span>
+      <input name="second-name" placeholder="enter second name" type="text" class="page-form__input">
+    </label>
+
+    <label for="email" class="page-form__label">
+      <span class="page-form__label-text"> Email Address</span>
+      <input name="email" placeholder="enter email" type="email" class="page-form__input">
+    </label>
+
+    <label for="radio" class="page-form__radio">
+        <input type="radio" name="response" value="man">nam
+        <input type="radio" name="response" value="woman">woman
+    </label>
+
+    <span class="page-form__label-text-position">Position
+    <select name="position" class="page-form__option">
+        <option value="coose">Choose...</option>
+        <option value="front-end">Front-end</option>
+        <option value="backend">Backend</option>
+        <option value="qc/qa">QC/QA</option>
+    </select></span>
+    
+    <label for="radio" class="page-form__label">
+      <p class="page-form__label-text-agreement">
+        <input type="checkbox" name="agreement">&nbsp I agree all statements in Terms of service
+      </p>
+  </label>
+  
+  <div class="page-form__button">
+    <button class="button">Sing Up</button> 
+  </div>
+
+  </form>
+
+</body>
+
+</html>

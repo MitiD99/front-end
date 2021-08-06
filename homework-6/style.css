@@ -1,28 +1,93 @@
-.page-form {
-    max-width: 600px;
+@font-face {
+    font-family: "Roboto-Light";
+    src: url(./fonts/Roboto-Light.ttf);
+}
+
+.fist, .second {
+    border: 1px solid #000;
+    padding: 3px;
+    background-color: rgb(250, 243, 227);
     margin: 0 auto;
-    border: 2px solid gray;
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  
-  .page-form__headling {
-    text-align: center;
-    background: green;
-    color: white;
-    padding: 10px 0;
-    margin: 0;
-    margin-bottom: 30px;
-  }
-  
-  .page-form__label, .page-form__label-text, .page-form__input, .page-form__radio-man-woman, .page-form__position {
+}
+
+.fist {
+    margin-top: 100px;
+    width: min-content;
+}
+
+.second {
+    width: 900px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.contet-of-course-first::before {
+    content: "\f058";
+    color: green;
+    font-family: FontAwesome;
     display: block;
-  }
-  
-  .page-form__input:focus {
-    outline: none;
-    box-shadow: 0 0 2px 2px blue;
-  }
-  .page-form__label {
-    width: 90%;
-  }
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.contet-of-course-second::before {
+    content: "\f066";
+    color: black;
+    font-family: FontAwesome;
+    display: block;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.contet-of-course-third::before {
+    content: "\f005";
+    color: blue;
+    font-family: FontAwesome;
+    display: block;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+li {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style-type: none;
+    width: 20%;
+    text-transform: uppercase;
+    font-family: "Roboto-Light";
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    text-align: center;
+    padding-left: 0;
+}
+
+.contet-of-course-first:hover::before {
+    content: "\f058";
+    color: red;
+    font-family: FontAwesome;
+    display: block;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.contet-of-course-second:hover::before {
+    content: "\f066";
+    color: orange;
+    font-family: FontAwesome;
+    display: block;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.contet-of-course-third:hover::before {
+    content: "\f005";
+    color: black;
+    font-family: FontAwesome;
+    display: block;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+

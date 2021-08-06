@@ -2,26 +2,27 @@
     font-family: Roboto-Regular;
     src: url(Roboto-Regular.ttf);
 }
-body{ 
+
+body { 
     background-color: rgb(175, 226, 240);
     font-family: Roboto-Regular;
 }
+
 .main-list {
     text-align: center;
-    padding-bottom: 40px;
     font-size: 20px;
-    margin: 0;
     padding: 0;
     color: rgb(110, 41, 110);
 }
-.clearfix {
+
+nav::after {
     clear: both;
 }
+
 .main-list-item {
     background-color: yellow;
     border:1px solid #000;
     display:block;
-    float:left;
     width: 19.8%;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -29,15 +30,18 @@ body{
 }
 
 h1 {
-    text-align: center;
+    text-align: center; 
 }
+
 .second-list {
     font-style: italic;
     margin: 0;
 }
-h2{
+
+h2 {
     color: blue;
 }
-.picture, .second-list, section {
+
+.sight-img, .second-list, section, .main-list-item {
     float: left;
 }

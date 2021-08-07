@@ -3,25 +3,15 @@
     src: url(./fonts/Roboto-Light.ttf);
 }
 
-.fist, .second {
-    border: 1px solid #000;
-    padding: 3px;
+.main {
+    border: 4px double black;
     background-color: rgb(250, 243, 227);
     margin: 0 auto;
-}
-
-.fist {
     margin-top: 100px;
-    width: min-content;
-}
-
-.second {
     width: 900px;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
-.contet-of-course-first::before {
+.contet-of-course-agreement::before {
     content: "\f058";
     color: green;
     font-family: FontAwesome;
@@ -30,7 +20,7 @@
     padding-bottom: 10px;
 }
 
-.contet-of-course-second::before {
+.contet-of-course-arrow::before {
     content: "\f066";
     color: black;
     font-family: FontAwesome;
@@ -39,7 +29,7 @@
     padding-bottom: 10px;
 }
 
-.contet-of-course-third::before {
+.contet-of-course-star::before {
     content: "\f005";
     color: blue;
     font-family: FontAwesome;
@@ -64,7 +54,7 @@ ul {
     padding-left: 0;
 }
 
-.contet-of-course-first:hover::before {
+.contet-of-course-agreement:hover::before {
     content: "\f058";
     color: red;
     font-family: FontAwesome;
@@ -73,7 +63,7 @@ ul {
     padding-bottom: 10px;
 }
 
-.contet-of-course-second:hover::before {
+.contet-of-course-arrow:hover::before {
     content: "\f066";
     color: orange;
     font-family: FontAwesome;
@@ -82,7 +72,7 @@ ul {
     padding-bottom: 10px;
 }
 
-.contet-of-course-third:hover::before {
+.contet-of-course-star:hover::before {
     content: "\f005";
     color: black;
     font-family: FontAwesome;

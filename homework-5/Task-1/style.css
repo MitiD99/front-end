@@ -16,6 +16,8 @@ body {
 }
 
 nav::after {
+    display: block;
+    content: " ";
     clear: both;
 }
 

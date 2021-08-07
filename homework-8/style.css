@@ -1,75 +1,82 @@
 @font-face {
-    font-family: Comic;
+    font-family: "Comic-Asia";
     src: url(./comic.ttf);
 }
 
-.asia-header {
-    font-family: Comic;
+h1 {
+    text-transform: uppercase;
+    font-family: Comic-Asia;
 }
 
 body {
     background: url(./img/black-background.jpg);
-    background-size: cover;
-}
-
-p, ul, header {
-    color: blanchedalmond;
-}
-
-header {
-    margin-left: 25px;
+    background-size: cover;  
+    color: white;
+    display: block;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    min-height: 100%;
+    margin-top: 20px;
 }
 
 ul {
-    display: flex;
-    text-align: center;
     list-style-type: none;
 }
 
-.asia-location {
-    margin-left: 30px;
-   border: 3px solid rgb(255, 255, 255);
-    box-shadow: inset 0 0 45px black;
+.master-data {
+    display: flex;
 }
 
-.asia-location::after {
+.main-list {
+    display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    padding: 0;
+}
+.main-list, .master-data {
+    justify-content: space-between
 }
 
-.copyright-text {
-    text-align: center;
-    font-size: 15px;
-    margin-bottom: 0;
+li {
+    padding-right: 10px;
+    padding-top: 13px;
 }
 
-figcaption {
-    font-size: 20px;
+footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+main {
+    padding-bottom: 100px;
+}
+
+div {
+    text-align: left;
 }
 
 .globus::before {
     font-family: FontAwesome;
     content: "\f0ac";
+    color: white;
 }
 
-span {
-    font-size: 30px;
-}
-
-p {
-    font-size: 15px;
-}
-
-section {
-    margin-left: 50px;
-    margin-top: 40px;
-    padding-right: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between
+.header-asia {
+    width: 400px;
 }
 
 .contact {
-    flex-direction: column;
-    align-items: flex-start;
+    padding-top: 20px;
+}
+
+.asia-location {
+    border: 6px double black;
+    background-color: gray;
+}
+
+ul:first-child {
+    margin-bottom: 0;
+    margin-top: 0px;
 }

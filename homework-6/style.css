@@ -11,7 +11,7 @@
     width: 900px;
 }
 
-.contet-of-course-agreement::before {
+.content-of-course-agreement::before {
     content: "\f058";
     color: green;
     font-family: FontAwesome;
@@ -20,7 +20,7 @@
     padding-bottom: 10px;
 }
 
-.contet-of-course-arrow::before {
+.content-of-course-arrow::before {
     content: "\f066";
     color: black;
     font-family: FontAwesome;
@@ -29,7 +29,7 @@
     padding-bottom: 10px;
 }
 
-.contet-of-course-star::before {
+.content-of-course-star::before {
     content: "\f005";
     color: blue;
     font-family: FontAwesome;
@@ -54,7 +54,7 @@ ul {
     padding-left: 0;
 }
 
-.contet-of-course-agreement:hover::before {
+.content-of-course-agreement:hover::before {
     content: "\f058";
     color: red;
     font-family: FontAwesome;
@@ -63,7 +63,7 @@ ul {
     padding-bottom: 10px;
 }
 
-.contet-of-course-arrow:hover::before {
+.content-of-course-arrow:hover::before {
     content: "\f066";
     color: orange;
     font-family: FontAwesome;
@@ -72,7 +72,7 @@ ul {
     padding-bottom: 10px;
 }
 
-.contet-of-course-star:hover::before {
+.content-of-course-star:hover::before {
     content: "\f005";
     color: black;
     font-family: FontAwesome;

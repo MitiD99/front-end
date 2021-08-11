@@ -1,0 +1,176 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*=====================*/
+
+
+
+@font-face {
+    font-family: Alpha;
+    src: url(./fonts/alpha_echo.ttf);
+}
+
+.log {
+    font-family: Alpha;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(206, 206, 206);
+}
+
+.main-nav-and-log {
+    max-width: 100%;
+    display: block;
+    background-color: white;
+}
+
+.main-nav-list {
+    display: flex;
+    margin: 0;
+    justify-content: space-around;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 30px;
+}
+
+.botton {
+    background-color: white;
+    outline: none;
+    border: none;
+    transition: 0.6s linear;
+    border-radius: 0.5em;
+    padding: 5px;
+    font-size: 15px;
+    color: gray;
+}
+
+.botton:hover {
+    outline: none;
+    background-color: rgb(214, 24, 65);
+
+}
+
+.main-text-page {
+    display: flex;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.left-tex{
+    max-width: 600px;
+    background-color: white;
+    display: block;
+    margin-right: 20p;
+}
+
+.head-grey{
+    color: rgb(190, 190, 190);
+    font-style: italic;
+}
+
+.button-dog {
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.right-text {
+    max-width: 300px;
+    background-color: white;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+section, h2 {
+    padding: 10px;
+}
+
+.space {
+    width: 10px;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+.a-page {
+    display: block;
+    color:red;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+h4 {
+    padding-top: 10px;
+    padding-left: 5px;
+    font-weight: bold;
+}
+
+.right {
+    padding: 5px;
+}
+.right-spase {
+    height: 10px;
+    width: 300px;
+}
+
+footer {
+    background-color: rgb(39, 39, 39);
+}
+
+.footer-text {
+    margin: 0 auto;
+}

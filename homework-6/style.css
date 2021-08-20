@@ -5,50 +5,55 @@
 
 .main {
     border: 4px double black;
-    background-color: rgb(250, 243, 227);
+    background-color: rgb(248, 246, 221);
     margin: 0 auto;
     margin-top: 100px;
-    width: 900px;
+    width: 800px;
+    font-size: 12px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .content-of-course-agreement::before {
     content: "\f058";
     color: green;
     font-family: FontAwesome;
-    display: block;
-    flex-direction: row;
-    padding-bottom: 10px;
 }
 
 .content-of-course-arrow::before {
     content: "\f066";
     color: black;
     font-family: FontAwesome;
-    display: block;
-    flex-direction: row;
-    padding-bottom: 10px;
 }
 
 .content-of-course-star::before {
     content: "\f005";
     color: blue;
     font-family: FontAwesome;
+}
+
+.content-of-course::before {
     display: block;
     flex-direction: row;
     padding-bottom: 10px;
 }
 
-li {
-    padding-top: 20px;
-    padding-bottom: 20px;
+.content-of-course {
+    padding-top: 25px;
+    padding-bottom: 25px;
     list-style-type: none;
     width: 20%;
     text-transform: uppercase;
     font-family: "Roboto-Light";
     cursor: pointer;
+    display: block;
+    flex-direction: row;
+    padding-bottom: 10px;
 }
 
-ul {
+.container {
     display: flex;
     text-align: center;
     padding-left: 0;
@@ -58,26 +63,17 @@ ul {
     content: "\f058";
     color: red;
     font-family: FontAwesome;
-    display: block;
-    flex-direction: row;
-    padding-bottom: 10px;
 }
 
 .content-of-course-arrow:hover::before {
     content: "\f066";
     color: orange;
     font-family: FontAwesome;
-    display: block;
-    flex-direction: row;
-    padding-bottom: 10px;
 }
 
 .content-of-course-star:hover::before {
     content: "\f005";
     color: black;
     font-family: FontAwesome;
-    display: block;
-    flex-direction: row;
-    padding-bottom: 10px;
 }
 

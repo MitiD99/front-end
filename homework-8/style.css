@@ -3,7 +3,7 @@
     src: url(./comic.ttf);
 }
 
-h1 {
+.asia-head {
     text-transform: uppercase;
     font-family: Comic-Asia;
 }
@@ -17,12 +17,16 @@ body {
     margin: 0 auto;
     position: relative;
     text-align: center;
-    min-height: 100%;
     margin-top: 20px;
+    position: relative;
 }
 
-ul {
+.general-list {
     list-style-type: none;
+}
+
+.contact-list {
+    margin: 0;
 }
 
 .master-data {
@@ -45,7 +49,7 @@ li {
 
 footer {
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
 }
 
@@ -53,18 +57,25 @@ main {
     padding-bottom: 100px;
 }
 
-div {
+.contact, .header-asia {
     text-align: left;
 }
 
-.globus::before {
-    font-family: FontAwesome;
-    content: "\f0ac";
-    color: white;
+.asia-text {
+    text-align: center;
 }
 
 .header-asia {
-    width: 400px;
+    width: 300px;
+}
+
+.contact-us-text {
+    padding-left: 40px;
+    margin-bottom: 5px;
+}
+
+.contact-list-text {
+    padding-top: 5px;
 }
 
 .contact {

@@ -5,10 +5,11 @@
 
 .page-form__label-text, .page-form__radio, .page-form__label-text-position, .page-form__label-text-agreement, .page-form__headling, .button {
   font-family: "Roboto-Regular";
+  font-size: 25px;
 }
 
 .page-form {
-  max-width: 600px;
+  max-width: 750px;
   margin: 0 auto;
   border: 2px solid gray;
   border-radius: 10px;
@@ -20,9 +21,12 @@
   padding: 10px 0;
   margin-bottom: 20px;
   margin-top: 0px;
+  background-color: rgb(44, 164, 113);
+  display: block;
+  text-align: center;
 }
   
-.page-form__headling, .page-form__label, .page-form__label-text, .page-form__radio, .page-form__label-text-position, .page-form__position, .page-form__input, .page-form__option, .page-form__button {
+ .page-form__label-text, .page-form__position, .page-form__input, .page-form__option {
   display: block;
 }
 
@@ -32,6 +36,7 @@
 
 .page-form__label, .page-form__radio, .page-form__label-text-position, .page-form__button { 
   padding-left: 40px;
+  display: block
 }
 
 .page-form__input, .page-form__option, .button {
@@ -54,16 +59,21 @@
   padding-bottom: 30px;
 }
 
-.button, .page-form__headling {
-  background-color: rgb(44, 151, 98);
+.button {
+  background-color: rgb(108, 187, 132);
   text-align: center;
   color: white;
-}
-
-.button {
   font-size: 17px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.button:focus {
+  background-color: rgb(145, 250, 177);
+}
+
+.button:hover {
+  background-color: rgb(79, 131, 95);
 }
 
 .page-form__radio:focus {

@@ -1,0 +1,18 @@
+Header:
+1. Carry -> Cherry.
+2. Поиск - чёрный фон, отступ от кнопки больше.
+3. conteiner -> container.
+4. H1 -> h1.
+5. input - прописать type (первый - text, второй - submit).
+6. div.request-field -> form.search-form.
+
+Eaten-berry
+1. Тег section. Весь блок является секцией.
+2. Надпись Eaten-berry - с прописной буквы, но строчными.
+3. "and go for a walk" - параграф текста.
+4. today good weather - p>strong.
+5. Текст lorem - сделать шире по макету.
+
+Навигации
+1. Оставить один тег nav для главной навигации.
+2. Прижать главную навигацию к правому краю.

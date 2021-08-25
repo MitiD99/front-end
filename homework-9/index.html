@@ -11,41 +11,39 @@
 <body>
     <header class="header-page">
 
-        <div class="header-conteiner">
+        <div class="header-container">
             <div class="header-charry">
-            <H1>carry</H1>
+            <h1 class="cherry">Cherry</h1>
             <p class="header-lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
         </div>
+        <form action="search" class="search-form">
+            <input name="request" type="text" placeholder="Search..." class="search__input">
 
-        <div class="request-field">
-
-            <input name="request" placeholder="Search..." class="search__input">
-
-            <button class="search-button">
+            <button class="search-button" type="submit">
                 <i class="fa fa-search" aria-hidden="true"></i>    
-            </button>
+            </button></form>
+        
+
 
     </header>
 
     <main class="main-text">
-        <div class="eaten-berry-block" >
-            <div class="eaten-berry-content">
+        <div class="eaten-berry-block">
+            <section class="eaten-berry-content">
             <div class="eaten-berry-head">
-            <h1 class="eaten-berry">
-                Eaten berry
-            </h1>
-            <h2>and go for a walk</h2>   
+            <h2 class="eaten-berry">Eaten berry</h2>
+            <p class="eaten-berry-text">and go for a walk</p>   
             </div>
 
-                <h2 class="today-head">
+                <p class="today-head">
                     Today good weather...
-                </h2>
+                </p>
             <p class="today-head-text">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae odit ducimus assumenda aliquam inventore nostrum repellat eveniet voluptate quos exercitationem repellendus, sapiente cum ratione sint autem cumque labore quo dolorum!                
             </p>
+        </section>
             </div>
-        </div>
-
+        
         
             <nav class="main-list-nav">
                 <ul class="list-nav">
@@ -59,13 +57,13 @@
                 </ul>
             </nav>
 
-                <nav class="transition-list-nav">
+                <div class="transition-list-nav">
                     <ul class="transition-between-pages">
                         <li><a id="m1" href="#">Home</a>  /</li>
                         <li><a id="m1" href="#">Another page</a>  /</li>
                         <li><a id="m1" href="#">This page</a></li>
                     </ul>
-                </nav>
+                </div>
         
                 <div class="main-text-page-border">
                     <div class="form-and-text-page">

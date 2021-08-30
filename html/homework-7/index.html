@@ -10,6 +10,13 @@
 </head>
 
 <body>
+  <script>
+    function agreeForm(f) {
+     if (f.agree.checked) {f.submit.disabled = 0 }
+     else {f.submit.disabled = 1} 
+    }
+   </script>
+ 
   <form class="page-form">
     
     <h2 class="page-form__headling">Create your account</h2>
@@ -24,14 +31,16 @@
       <input name="second-name" placeholder="enter second name" type="text" class="page-form__input">
     </label>
 
-    <label for="email" class="page-form__label">
+    <label for="email" class="page-form__label page-form-email">
       <span class="page-form__label-text"> Email Address</span>
       <input name="email" placeholder="enter email" type="email" class="page-form__input">
     </label>
 
     <label for="radio" class="page-form__radio">
-        <input type="radio" name="response" value="man">man
-        <input type="radio" name="response" value="woman">woman
+       <label class="radio"><input class="radio-input" type="radio" name="g">
+        <span class="radio-text"></span> man</label>
+        <label class="radio"><input class="radio-input" type="radio" name="g">
+          <span class="radio-text"></span> woman</label>
     </label>
 
     <span class="page-form__label-text-position">Position
@@ -42,14 +51,14 @@
         <option value="qc/qa">QC/QA</option>
     </select></span>
     
-    <label for="radio" class="page-form__label">
+    <label for="checkbox" class="page-form__label">
       <p class="page-form__label-text-agreement">
-        <input type="checkbox" name="agreement">&nbsp I agree all statements in Terms of service
+        <input type="checkbox" name="agree" onclick="agreeForm(this.form)">&nbsp I agree all statements in Terms of service
       </p>
   </label>
   
   <div class="page-form__button">
-    <button class="button">Sing Up</button> 
+    <input class="button" type="submit" name="submit" value="Sing Up" disabled></input> 
   </div>
 
   </form>

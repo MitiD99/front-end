@@ -18,7 +18,7 @@ body {
     position: relative;
     text-align: center;
     margin-top: 20px;
-    position: relative;
+    min-height: 100%;
 }
 
 .general-list {
@@ -38,8 +38,11 @@ body {
     flex-wrap: wrap;
     padding: 0;
 }
-.main-list, .master-data {
-    justify-content: space-between
+ .master-data {
+    justify-content: space-between;
+}
+.main-list {
+justify-content: space-around;
 }
 
 li {
@@ -48,14 +51,12 @@ li {
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    height: 30px;
     left: 50%;
     transform: translateX(-50%);
-}
-
-main {
-    padding-bottom: 100px;
 }
 
 .contact, .header-asia {
@@ -91,4 +92,13 @@ main {
 ul:first-child {
     margin-bottom: 0;
     margin-top: 0px;
+}
+
+
+html {
+    height: 100%;
+}
+
+.main {
+padding-bottom: 30px;
 }

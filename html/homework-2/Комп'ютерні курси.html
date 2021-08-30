@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Комп'ютерні курси</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <style>
+    .radio-input {
+        display: none;
+    }
+    .radio-text {
+     position: relative;
+     display: inline-block;
+     width: 15px; height: 15px; /* Размеры */
+     background: #F5F5F5; /* Серый цвет фона */
+     border-radius: 50%; /* Круглый переключатель */
+     box-shadow: inset 0 0 5px rgba(0,0,0,0.5); /* Тень внутри */
+    }
+    .radio-input:checked + .radio-text { 
+     background: #F44336; /* Красный цвет фона */
+    }
+    /* Добавляем белую точку по центру */
+    .radio-input:checked + .radio-text::before { 
+     content: '';
+     position: absolute;
+     left: 4px; top: 4px;
+     background: #fff;
+     width: 7px; height: 7px;
+     border-radius: 50%;
+    }
+   </style>
+  </head>
+  <body>
+   <label class="radio"><input class="radio-input" type="radio" name="g"><span class="radio-text"></span> Мужской</label>
+    <label class="radio"><input class="radio-input" type="radio" name="g"><span class="radio-text"></span> Женский</label>
+</body>
+</html>

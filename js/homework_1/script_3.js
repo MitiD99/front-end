@@ -3,4 +3,4 @@ if (a == 72 )
     console.log('Truth');
     
     else
-    console.log('False. Try again.');
+    console.error('False. Try again.');

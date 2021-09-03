@@ -7,6 +7,6 @@ switch (password) {
         console.log('You are logged in as <admin>');
         break;
     default:
-        console.log('Try again');
+        console.error('Try again');
         break;
 }

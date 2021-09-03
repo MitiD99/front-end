@@ -7,6 +7,6 @@ if (a > 0) {
     console.log(sum);
 }
 else {
-    console.log('Try again')
+    console.error('Try again');
 }
 

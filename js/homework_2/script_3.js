@@ -1,5 +1,5 @@
-let a = prompt('Enter number:');
-let b = prompt('Enter number:');
+let a = Number(prompt('Enter number:'));
+let b = Number(prompt('Enter number:'));
 let c = prompt('Choose an action (+, -, *, /):');
 
     if (c === '*') {
@@ -16,7 +16,6 @@ let c = prompt('Choose an action (+, -, *, /):');
 
     } else {
         alert('error');
-
     }
 
 

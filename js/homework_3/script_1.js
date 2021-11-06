@@ -1,18 +1,5 @@
-let styles = ['Джаз', 'Блюз'];
+let products = [1, 4, 5, 7, 10, 2, 100];
 
-styles.push('Рок-н-Ролл');
+let lastNum = products[products.length - 1];
 
-console.log(styles);
-
-let lastNum_2 = styles.length -2;
-styles[lastNum_2] = 'Класика';
-
-console.log(styles);
-
-console.log(styles.shift());
-console.log(styles);
-
-styles.splice(0, 0, 'Реп', 'Реггі');
-
-console.log(styles);
-
+console.log(lastNum);

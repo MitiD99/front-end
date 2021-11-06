@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-and-background">
+    <div class="action">
+        <input id="plus" class="button" type="button" value="+" onclick="plus()">
+        <input id="minus" class="button" type="button" value="-" onclick="minus()">
+        <input id="mult" class="button" type="button" value="*" onclick="mult()">
+        <input id="division" class="button" type="button" value="/" onclick="division()">
+    </div> 
+    <hr class="line">
+    <div class="input-num">
+        <label for="num_1">
+            <p>Number 1</p>
+            <input id="firstNum" type="number" step="1">
+        </label>
+        <label for="num_2">
+            <p>Number 2</p>
+            <input id="secondNum" type="number" step="1">
+        </label>
+        <p class="result">Result: <span id="text-result"></span></p>
+    </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(77, 99, 122);
+    justify-content: space-around;
+    display: flex;
+}
+
+button {
+    background-color: rgb(241, 113, 28);
+    color: white;
+    border: none;
+    border-radius: 0.3em;
+    padding: 6px;
+}
+
+button:hover {
+    background-color: rgb(241, 129, 55);
+}
+
+button:focus {
+    background-color: rgb(172, 82, 22);
+}
+
+.container {
+    display: flex;
+    text-align: center;
+    background-color: white;
+    border-radius: 0.5em;
+    padding: 10px;
+    width: 900px;   /* вся ширина */
+    box-shadow: 0 25px 40px rgba(0,0,0,0.4);
+}
+
+.container-option {
+    width: 300px;   /* ширина */
+}
+
+h2 {
+    color: rgb(241, 113, 28);
+}
+
+.fa {
+    color: grey;
+}
+
+p {
+    color: rgb(73, 73, 73);
+}

@@ -1,0 +1,49 @@
+.one-line, .two-line, .three-line {
+    background-color: gray;
+    color: white;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    height: 40px;
+    margin-bottom: 10px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.three, .one, .two { 
+    width: 20px;
+    height: 20px;
+    display: flex;
+    transform: skewX(-30deg);
+}
+
+.one-line-a, .one-line-b, .two-line-a, .two-line-b, .three-line-a {
+    background-color: green;
+    
+}
+
+.one-line-c, .one-line-d, .two-line-c {
+    background-color: yellow;
+}
+
+.one-line-e, .one-line-f {
+    background-color: brown;
+}
+
+.two-line-d, .two-line-e, .two-line-f, .three-line-b, .three-line-c, .three-line-d, .three-line-e, .three-line-f {
+    background-color: rgb(190, 190, 190);
+}
+
+.box {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text {
+    font-size: 20px;
+   font-weight: lighter;
+   font-style:oblique;
+}

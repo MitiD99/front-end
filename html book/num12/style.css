@@ -1,0 +1,21 @@
+.cards::before {
+    margin-right: 7px;
+}
+
+.peak::before {
+    content: '\2660';
+}
+
+.cross::before{
+    content: '\2663';
+}
+
+.rhombus::before {
+    content: '\2665';
+    color: red;
+}
+
+.heart::before {
+    content: '\2666';
+    color: red;
+}
